@@ -13,7 +13,7 @@ A PostgREST instance exposes all the tables, views, and stored procedures of a s
 It is recommended that you don't expose tables on your API schema. Instead expose views and stored procedures which insulate the internal details from the outside world.
 This allows you to change the internals of your schema and maintain backwards compatibility. It also keeps your code easier to refactor, and provides a natural way to do API versioning.
 
-.. image:: _static/db.png
+.. image:: ../_static/db.png
 
 .. _func_privs:
 

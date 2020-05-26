@@ -10,11 +10,11 @@ Authentication Sequence
 
 There are three types of roles used by PostgREST, the **authenticator**, **anonymous** and **user** roles. The database administrator creates these roles and configures PostgREST to use them.
 
-.. image:: _static/security-roles.png
+.. image:: ../_static/security-roles.png
 
 The authenticator should be created :code:`NOINHERIT` and configured in the database to have very limited access. It is a chameleon whose job is to "become" other users to service authenticated HTTP requests. The picture below shows how the server handles authentication. If auth succeeds, it switches into the user role specified by the request, otherwise it switches into the anonymous role.
 
-.. image:: _static/security-anon-choice.png
+.. image:: ../_static/security-anon-choice.png
 
 Here are the technical details. We use `JSON Web Tokens <http://jwt.io/>`_ to authenticate API requests. As you'll recall a JWT contains a list of cryptographically signed claims. All claims are allowed but PostgREST cares specifically about a claim called role.
 

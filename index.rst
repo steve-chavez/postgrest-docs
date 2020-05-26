@@ -73,10 +73,16 @@ The project has a friendly and growing community. Join our `chat room <https://g
 
    releases/*
 
-Tutorials
----------
+Getting Started
+---------------
 
 Are you new to PostgREST? This is the place to start!
+
+.. toctree::
+   :caption: Installation
+   :hidden:
+
+   topics/install.rst
 
 .. toctree::
    :glob:
@@ -85,10 +91,11 @@ Are you new to PostgREST? This is the place to start!
 
    tutorials/*
 
+- :doc:`Installation <topics/install>`
 - :doc:`tutorials/tut0`
 - :doc:`tutorials/tut1`
 
-Also have a look at :doc:`Installation <install>` and :ref:`community_tutorials`.
+Also have a look at :ref:`community_tutorials`.
 
 Reference guides
 ----------------
@@ -99,16 +106,16 @@ Technical references for PostgREST's functionality.
    :caption: API
    :hidden:
 
-   api.rst
+   references/api.rst
 
 .. toctree::
    :caption: Configuration
    :hidden:
 
-   configuration.rst
+   references/configuration.rst
 
-- :doc:`API <api>`
-- :doc:`configuration`
+- :doc:`API <references/api>`
+- :doc:`references/configuration`
 
 Topic guides
 ------------
@@ -119,30 +126,23 @@ Explanations of some key concepts in PostgREST.
    :caption: Authentication
    :hidden:
 
-   auth.rst
+   topics/auth.rst
 
 .. toctree::
    :caption: Schema Structure
    :hidden:
 
-   schema_structure.rst
+   topics/schema_structure.rst
 
 .. toctree::
    :caption: Administration
    :hidden:
 
-   admin.rst
+   topics/admin.rst
 
-.. toctree::
-   :caption: Installation
-   :hidden:
-
-   install.rst
-
-- :doc:`Authentication <auth>`
-- :doc:`Schema Structure <schema_structure>`
-- :doc:`Administration <admin>`
-- :doc:`Installation <install>`
+- :doc:`Authentication <topics/auth>`
+- :doc:`Schema Structure <topics/schema_structure>`
+- :doc:`Administration <topics/admin>`
 
 .. _how_tos:
 
@@ -162,31 +162,31 @@ These are recipes that'll help you address specific use-cases.
 - :doc:`how-tos/embedding-table-from-another-schema`
 - :doc:`how-tos/providing-images-for-img`
 
-Ecosystem
+Community
 ---------
 
-PostgREST has a growing ecosystem of examples, libraries, and experiments. Here is a selection.
-
 .. toctree::
-   :caption: Ecosystem
+   :caption: Community
    :hidden:
+   :glob:
 
-   ecosystem.rst
+   community/*
 
-* :ref:`eco_example_apps`
-* :ref:`eco_external_notification`
-* :ref:`eco_extensions`
-* :ref:`clientside_libraries`
+- :doc:`Ecosystem <community/ecosystem>`
+- :doc:`community/tutorials`
+
+Development
+-----------
 
 For helping with development, see the following page.
 
-* :doc:`Development <development>`
+* :doc:`Development <development/index>`
 
 .. toctree::
    :caption: Development
    :hidden:
 
-   development.rst
+   development/index.rst
 
 Release Notes
 -------------

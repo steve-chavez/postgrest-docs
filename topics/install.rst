@@ -66,7 +66,7 @@ For a complete reference of the configuration file, see :ref:`configuration`.
 
   If you see a dialog box like this on Windows, it may be that the :code:`pg_config` program is not in your system path.
 
-  .. image:: _static/win-err-dialog.png
+  .. image:: ../_static/win-err-dialog.png
 
   It usually lives in :code:`C:\Program Files\PostgreSQL\<version>\bin`. See this `article <https://www.howtogeek.com/118594/how-to-edit-your-system-path-for-easy-command-line-access/>`_ about how to modify the system path.
 

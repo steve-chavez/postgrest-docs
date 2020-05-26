@@ -545,7 +545,7 @@ returned together. For example, consider a database of films and their awards:
 
   PostgREST needs `FOREIGN KEY constraints <https://www.postgresql.org/docs/current/tutorial-fk.html>`_ to be able to do Resource Embedding.
 
-.. image:: _static/film.png
+.. image:: ../_static/film.png
 
 As seen above in :ref:`v_filter` we can request the titles of all films like this:
 
@@ -777,7 +777,7 @@ Target Disambiguation
 
 For example, suppose you have the following ``orders`` and ``addresses`` tables:
 
-.. image:: _static/orders.png
+.. image:: ../_static/orders.png
 
 And you try to embed ``orders`` with ``addresses`` (this is the **target**):
 
